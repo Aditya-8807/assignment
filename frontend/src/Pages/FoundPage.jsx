@@ -1,11 +1,5 @@
-import FoundItemForm from '../Components/FoundItemForm';
-import FoundItemList from '../Components/FoundItemList';
+import ItemList from '../Components/ItemList';
 
 export default function FoundPage() {
-  return (
-    <div>
-      <FoundItemForm />
-      <FoundItemList />
-    </div>
-  );
+  return <ItemList showFound={true} />;
 }

@@ -82,3 +82,23 @@ img {
   border-radius: 8px;
   margin-top: 10px;
 }
+.checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin: 1rem 0;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #333;
+  width: 18px;
+}
+
+.chechbox-option input {
+  margin-right: 0.5rem;
+  transform: scale(1.2);
+  accent-color: #0077ff;
+}
