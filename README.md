@@ -76,7 +76,7 @@ python manage.py createsuperuser
    
 	  •	Mounts the React app to the DOM element with id="root".
    
-9. /src/Pages/FoundPage.jsx
-	•	Combines FoundItemForm and FoundItemList.
-	•	Used as the main view for users to report and browse found items.
+9. /src/Pages/HomePage.jsx
+	•	Combines ItemForm and ItemList.
+	•	Used as the main view for users to report and browse whether item is found or lost.
 
